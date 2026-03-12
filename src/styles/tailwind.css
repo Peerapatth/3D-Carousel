@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers for the carousel area */
+.carousel-area { @apply max-w-4xl mx-auto p-6 }
+.carousel-canvas { @apply rounded-lg overflow-hidden }
