@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col bg-image overflow-hidden">
     <GalleryRoomCarousel class="relative" />
-    <CloseIcon class="absolute bottom-[7%] left-1/2 transform -translate-x-1/2 w-[7vh] cursor-pointer" />
+    <!-- <CloseIcon class="absolute bottom-[7%] left-1/2 transform -translate-x-1/2 w-[7vh] cursor-pointer" /> -->
   </div>
 </template>
 
