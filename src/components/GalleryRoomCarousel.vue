@@ -45,7 +45,6 @@ const props = defineProps({
       { src: ConsoleTableGala, title: "ConsoleTableGala" },
       { src: DiningChairChloe, title: "DiningChairChloe" },
       { src: DinningChairSofia, title: "DinningChairSofia" },
-      { src: DinningChairSofia, title: "DinningChairSofia" },
     ],
   },
   invertScroll: {
