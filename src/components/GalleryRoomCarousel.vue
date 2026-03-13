@@ -195,7 +195,7 @@ function animate() {
   }
 
   updatePositions();
-  const ease = 0.2;
+  const ease = 0.1;
   cards.forEach((card) => {
     const tx = card.userData.targetX ?? card.position.x;
     const tz = card.userData.targetZ ?? card.position.z;
@@ -283,7 +283,6 @@ function prev() {
   const n = cards.length;
   const prevIndex = mod(activeIndex.value - 1, n);
   activeIndex.value = prevIndex;
-  // ensure scrollUnits resets so updatePositions computes targets from the new active
   scrollUnits = 0;
   velocity = 0;
 }
