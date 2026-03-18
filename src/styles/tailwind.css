@@ -1,7 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Inter:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
 /* small helpers for the carousel area */
-.carousel-area { @apply max-w-4xl mx-auto p-6 }
-.carousel-canvas { @apply rounded-lg overflow-hidden }
+.carousel-area {
+  @apply max-w-4xl mx-auto p-6;
+}
+.carousel-canvas {
+  @apply rounded-lg overflow-hidden;
+}

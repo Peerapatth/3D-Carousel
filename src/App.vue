@@ -1,11 +1,9 @@
 <template>
-  <div id="app" class="min-h-screen bg-gray-900 text-white">
-    <Home />
+  <div id="app" class="min-h-screen text-white">
+    <RouterView />
   </div>
 </template>
 
-<script setup>
-import Home from "@/views/Home.vue";
-</script>
+<script setup></script>
 
 <style></style>
