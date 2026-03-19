@@ -26,7 +26,7 @@
 
 <script setup>
 import { useRouter } from "vue-router";
-import homeBackground from "@/images/HomeBackgound.jpg";
+import homeBackground from "@/images/HomeBackground.jpg";
 import ExploreIcon from "@/elements/ExploreIcon.vue";
 
 const router = useRouter();
